@@ -74,7 +74,7 @@ body {
 
 .plan-desc {
     font-size: 1rem;
-    color: #666;
+    color: #1a1919;
     margin-bottom: 20px;
 }
 
@@ -98,6 +98,11 @@ body {
     color: #4d52f5;
 }
 
+.free {
+    background-color: #f0f0f0; /* back más claro para reducir su prominencia */
+    color: #575757; 
+}
+
 .price {
     font-size: 1.5rem;
     margin-bottom: 10px;
@@ -105,7 +110,7 @@ body {
 
 .price small {
     font-size: 0.8rem;
-    color: #666;
+    color: #fff4f4; 
 }
 
 .plan-card button {
@@ -118,16 +123,27 @@ body {
     font-size: 1rem;
 }
 
-.plan-card.pro button {
-    background-color: #4d52f5;
+.plan-card.pro {
+    background-color: #2b2ecf; /* azul mas oscuro  */
+    color: white; /* texto blanco para mas contraste */
+    font-weight: bold; 
 }
 
+.plan-card.pro button {
+    background-color: #eeeeee; /* botón más oscuro del fondo */
+    color: #2b2ecf; 
+    font-weight: bold; 
+}
+
+
 .plan-card.premium {
-    background-color: #4d52f5;
+    background-color: #fa7e18; 
     color: white;
+    font-weight: bold; 
 }
 
 .plan-card.premium button {
     background-color: #fff;
-    color: #4d52f5;
+    color: #f58427; 
+    font-weight: bold; 
 }
